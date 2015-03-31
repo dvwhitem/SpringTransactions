@@ -39,6 +39,12 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:3.2.0.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.8.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.0.18" level="application_server_libraries" />
+    <orderEntry type="library" name="Maven: com.atomikos:transactions-jdbc:3.9.3" level="project" />
+    <orderEntry type="library" name="Maven: com.atomikos:transactions-jta:3.9.3" level="project" />
+    <orderEntry type="library" name="Maven: com.atomikos:transactions:3.9.3" level="project" />
+    <orderEntry type="library" name="Maven: com.atomikos:transactions-api:3.9.3" level="project" />
+    <orderEntry type="library" name="Maven: com.atomikos:atomikos-util:3.9.3" level="project" />
+    <orderEntry type="library" name="Maven: com.atomikos:transactions-hibernate3:3.9.3" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjrt:1.7.2" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.7.2" level="project" />
     <orderEntry type="library" name="Maven: org.postgresql:postgresql:9.3-1101-jdbc41" level="project" />

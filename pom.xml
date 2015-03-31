@@ -18,8 +18,25 @@
         <hibernate.entitymanager.version>4.2.3.Final</hibernate.entitymanager.version>
         <slf4j.log4j.version>1.7.6</slf4j.log4j.version>
         <aspectj.version>1.7.2</aspectj.version>
+        <atomikos.version>3.9.3</atomikos.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>com.atomikos</groupId>
+            <artifactId>transactions-jdbc</artifactId>
+            <version>${atomikos.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.atomikos</groupId>
+            <artifactId>transactions-hibernate3</artifactId>
+            <version>${atomikos.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>hibernate</artifactId>
+                    <groupId>org.hibernate</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjrt</artifactId>
